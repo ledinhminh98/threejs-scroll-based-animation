@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  background: rgba(148, 147, 152, 0.8);
+}
+
+@font-face {
+  font-family: "Rubik Marker Hatch";
+  src: url(/static/fonts/RubikMarkerHatch-Regular.ttf);
+}
+
+.webgl {
+  position: fixed;
+  top: 0;
+  left: 0;
+  outline: none;
+}
+
+.section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  position: relative;
+  font-family: "Rubik Marker Hatch";
+  color: rgba(244, 222, 78, 0.8);
+  text-transform: uppercase;
+  font-size: 15vmin;
+  padding-left: 10%;
+  padding-right: 10%;
+  user-select: none;
+}
+
+section h1,
+section h2 {
+  position: relative;
+  top: 20%;
+}
